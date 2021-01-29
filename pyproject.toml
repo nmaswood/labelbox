@@ -6,9 +6,15 @@ authors = ["Nasr Maswood <nasr@labelbox.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
+bing-image-downloader = "^1.0.4"
+pydantic = "^1.7.3"
+labelbox = "^2.4.9"
 
 [tool.poetry.dev-dependencies]
 pytest = "^4.6"
+pylint = "^2.6.0"
+mypy = "^0.800"
+autopep8 = "^1.5.4"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
